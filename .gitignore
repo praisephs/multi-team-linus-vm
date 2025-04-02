@@ -1,0 +1,11 @@
+# Terraform State Files
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Terraform Variables (Sensitive Data)
+terraform.tfvars
+
+# Logs & Local Files
+*.log
+*.bak
