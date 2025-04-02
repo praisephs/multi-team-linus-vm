@@ -22,6 +22,6 @@ module "vm" {
   image_publisher     = var.image_publisher
   image_offer         = var.image_offer
   image_sku           = var.image_sku
-  subnet_id           = data.azurerm_subnet.existing_subnet.id
+  subnet_id           = data.azurerm_subnet.this.id
 }
 
